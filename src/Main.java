@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        int x = 100; // HA C4ETY
-        int y = 1200; // CYMMA popolneniya
-        int bonus = y / 100;
-        if (y > 1000) {
-            System.out.println("Итоговая сумма:" + (x + y + bonus));
+        int money_account = 100; // Денег на счете
+        int replenishment_amount = 1200; // Сумма пополнения
+        int bonus = replenishment_amount / 100;
+        if (replenishment_amount > 1000) {
+            System.out.println("Итоговая сумма:" + (money_account + replenishment_amount + bonus));
             ;
         } else {
-            System.out.println("Итоговая сумма:" + (x + y));
+            System.out.println("Итоговая сумма:" + (money_account + replenishment_amount));
         }
     }
 }
